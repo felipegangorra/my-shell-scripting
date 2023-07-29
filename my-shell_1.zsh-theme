@@ -5,19 +5,19 @@ ZSH_THEME_GIT_PROMPT_DIRTY=''
 ZSH_THEME_GIT_PROMPT_CLEAN=''
 
 # User and hostname
-user_prompt='%B%F{#F92672}╭─[%n@%m]%f%b'
+user_prompt='%B%F{#7FFFD4}╭─[%n@%m]%f%b'
 
 #Date
-date='%F{#66D9EF}[%*]%f'
+date='%F{#808000}[%*]%f'
 
 #Directories
 dir_prompt='%F{#E69F66}%0~%f'
 
 #Date
-date='%F{#66D9EF}[%*]%f'
+date='%F{#808000}[%*]%f'
 
 # Prompt second Line
-second_line='%F{#F92672}╰──'
+second_line='%F{#FFA500}╰──'
 
 PROMPT='${user_prompt} in ${dir_prompt} - ${date}
 ${second_line}$(git_prompt_info)─ $ %f%b'
