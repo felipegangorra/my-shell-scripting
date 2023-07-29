@@ -4,25 +4,23 @@ ZSH_THEME_GIT_PROMPT_SUFFIX=')'
 ZSH_THEME_GIT_PROMPT_DIRTY=''
 ZSH_THEME_GIT_PROMPT_CLEAN=''
 
-# User and hostname
+# nome e host
 user_prompt='%B%F{#7FFFD4}╭─[%n@%m]%f%b'
 
-#Date
+# cor da data
 date='%F{#808000}[%*]%f'
 
-#Directories
+# Cor do diretório
 dir_prompt='%F{#E69F66}%0~%f'
 
-#Date
-date='%F{#808000}[%*]%f'
-
-# Prompt second Line
+# Cor da linha de comando
 second_line='%F{#FFA500}╰──>'
 
+# Config do prompt
 PROMPT='${user_prompt} in ${dir_prompt} - ${date}$(git_prompt_info)%f
 ${second_line} %f%b'
 
-# Função git_prompt_info modificada
+# Função git_prompt_info modificada (Cor)
 function git_prompt_info() {
   local ref
   if [[ "$(command git config --get oh-my-zsh.hide-status 2>/dev/null)" != "1" ]]; then
