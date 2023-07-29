@@ -26,7 +26,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 Abra o arquivo zshrc:
 
 ``` bash
-nano ~/.zshrc
+code ~/.zshrc
 ```
 
 Passe o conteúdo do arquivo my-shell para o zshrc!
