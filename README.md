@@ -30,3 +30,19 @@ code ~/.zshrc
 ```
 
 Passe o conteúdo do arquivo my-shell para o zshrc!
+
+---
+
+### Preparando Bash
+
+Pelo terminal abra o bashrc:
+``` bash
+code ~/.bashrc
+```
+
+Cole o thema no arquivo e salve.
+Atualize o bash:
+
+``` bash
+source ~/.bashrc
+```
