@@ -1,4 +1,4 @@
-# Configuração do shell zsh
+# Configuração do shell
 
 ### Preparando Zsh
 
